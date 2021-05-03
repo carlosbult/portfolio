@@ -1,0 +1,17 @@
+{
+  "name": "personalproject",
+  "version": "1.0.0",
+  "description": "Pagina de Presentacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "LANDINGPAGE"
+  ],
+  "author": "Carlos Bult <acevedo.bult@gmail.com>",
+  "license": "MIT"
+}
