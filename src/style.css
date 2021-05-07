@@ -360,4 +360,12 @@ a:hover {
     .fa-html5 {
         padding: 0.5em;
     }
+
+    .fa-envelope,
+    .fa-linkedin,
+    .fa-github,
+    .fa-twitter,
+    .fa-instagram { 
+        padding: 0;
+    }
 }
