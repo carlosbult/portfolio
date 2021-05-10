@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Bult | Frontend Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/style.css">
 </head>
@@ -17,18 +18,18 @@
             <h2 class="logo">Frontend Dev</h2>
             <!-- <img class="menu__img" src="" alt=""> -->
             <nav class="menu__nav">
-                <ul class="menu__list">
+                <ul class="menu__list" id="menu">
                     <li class="menu__list--item"> 
                         <a href="#" class="menu__button">Inicio</a> </li>
                     <li class="menu__list--item"> 
-                        <a href="#" class="menu__button">Sobre mí</a> </li>
+                        <a href="#about" class="menu__button">Sobre mí</a> </li>
                     <li class="menu__list--item"> 
-                        <a href="#" class="menu__button">Proyectos</a> </li>
+                        <a href="#projects" class="menu__button">Proyectos</a> </li>
                     <li class="menu__list--item"> 
                         <a href="#" class="menu__button">Contacto</a> </li>
                 </ul>
             </nav>
-            <i class="fas fa-ellipsis-v"></i>
+            <i class="fas fa-ellipsis-v" id="menu-bar"></i>
         </header>
 
         <main class="contain">
@@ -44,8 +45,8 @@
                 </div>
             </section>
             
-            <section class="about grid">
-                <div class=" profile-pic1 presentation-2">
+            <section class="about grid" id="about">
+                <div class="profile-pic1 presentation-2">
                     <img class="profile-pic" src="./src/assets/profilePic.jpg" alt="">
                 </div>
 
@@ -73,7 +74,7 @@
                     </div>
             </section>
 
-            <section class="projects">
+            <section class="projects" id="projects">
                 <h2 class="projects__tittle">Proyectos</h2>
                 <div class="projects__item"> 
                         <img class="projects__img " src="src/assets/Desing.jpg" alt="">
@@ -130,5 +131,6 @@
             <div class="last-part">Todos los derechos reservados 2021</div>
         </footer>
     </div>
+    <script src="src/index.js"></script>   
 </body>
 </html>
