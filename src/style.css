@@ -42,6 +42,10 @@ a:hover {
     background-color: tomato;
 }
 
+.fa-ellipsis-v {
+    display: none;
+}
+
 .menu .logo {
     padding: 1em;
 }
@@ -314,6 +318,11 @@ a:hover {
 
     .menu__nav {
         display: none;
+    }
+
+    .fa-ellipsis-v{
+        display: flex;
+        padding: 0 1.5em;
     }
 
     .presentation {
