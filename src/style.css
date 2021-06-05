@@ -50,6 +50,11 @@ a:hover {
     padding: 1em;
 }
 
+.menu__img {
+    height: 100%;
+    margin-left: 1em;
+}
+
 .menu__nav {
     width: 50%;
 }
@@ -239,6 +244,31 @@ a:hover {
 .projects__text--tittle {
     font-size: 2em;
 }
+
+/* Formulario */
+
+    form {
+        background-color: #eee;
+        border-radius: 20px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+
+    input {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #eee;
+    }
+
+    textarea {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #eee;
+    }
 
 /* Footer */
 
