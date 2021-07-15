@@ -27,6 +27,10 @@
         display: flex;
         justify-content: space-evenly;
     }
+
+    form {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 540px) {

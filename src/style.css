@@ -226,8 +226,8 @@ a:hover {
     padding: 1em;
 }
 
-.projects__button, 
-.projects__button--code {
+.projects__button,
+.projects__button--code, .submit {
     font-size: 1.2em;
     border: 1px solid tomato;
     border-radius: 10px;
@@ -236,7 +236,7 @@ a:hover {
 }
 
 .projects__button:hover,
-.projects__button--code:hover {
+.projects__button--code:hover, .submit:hover {
     background: #cecece;
     border: 1px solid #eee;
 }
@@ -247,16 +247,30 @@ a:hover {
 
 /* Formulario */
 
-    form {
-        background-color: #eee;
-        border-radius: 20px;
-        width: 90%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        padding: 2em;
-        margin-bottom: 2em;
-    }
+form {
+    background-color: #eee;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.contact-form-error {
+    color: tomato;
+}
+
+.none {
+display: none;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 0.5em;
+}
 
     input {
         padding: 5px;
@@ -265,9 +279,24 @@ a:hover {
     }
 
     textarea {
+        resize: vertical;
+        margin-bottom: 1em;
         padding: 5px;
         border-radius: 5px;
         border: 1px solid #eee;
+    }
+
+    .submit {
+        width: 20%;
+        min-width: 80px;
+        margin: auto;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .submit:hover {
+        color: tomato;
+        font-weight: 700;
     }
 
 /* Footer */
