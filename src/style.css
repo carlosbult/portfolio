@@ -168,13 +168,15 @@ a:hover {
 
 .about__logo {
   margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
 }
 
 .fa-js,
 .fa-css3-alt,
-.fa-html5 {
+.fa-html5,
+.fa-sass {
   font-size: 50px;
-  padding: 0 1em;
 }
 
 .fa-css3-alt {
@@ -185,6 +187,9 @@ a:hover {
 }
 .fa-js {
   color: #e0c128;
+}
+.fa-sass {
+  color: #bf4080;
 }
 
 /* Projects */
