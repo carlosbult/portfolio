@@ -1,0 +1,53 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+
+  h2 {
+    margin: 1em;
+    font-size: 3em;
+  }
+
+  &__item {
+    width: 75%;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    margin: 1em;
+    display: flex;
+    overflow: hidden;
+  }
+
+  &__img {
+    height: auto;
+    width: auto;
+    max-width: 60%;
+    max-height: 100%;
+  }
+
+  &__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    &--tittle {
+      font-size: 2em;
+    }
+  }
+
+  &__button,
+  &__button--code,
+  .submit {
+    font-size: 1.2em;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    padding: 0.2em;
+    background: #eee;
+    &:hover {
+      background: #cecece;
+      border: 1px solid #eee;
+    }
+  }
+}

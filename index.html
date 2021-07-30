@@ -11,8 +11,8 @@
     <link rel="icon" href="src/assets/logo.png" type="image/png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./src/style.css">
-    <link rel="stylesheet" href="./src/mediaQuery.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/mobile.css">
 </head>
 
 <body>
@@ -32,9 +32,6 @@
                     <li class="menu__list--item">
                         <a href="#projects" class="menu__button">Proyectos</a>
                     </li>
-                    <!-- <li class="menu__list--item">
-                        <a href="#" class="menu__button">Contacto</a>
-                    </li> -->
                 </ul>
             </nav>
             <i class="fas fa-ellipsis-v" id="menu-bar"></i>
@@ -92,6 +89,19 @@
                 <h2 class="projects__tittle">Proyectos</h2>
 
                 <div class="projects__item">
+                    <img class="projects__img" src="src/assets/ip-address-tracker.png" alt="">
+                    <div class="projects__text">
+                        <h3 class="projects__text--tittle">IP Address Tracker</h3>
+                        <a class="projects__button" href="https://carlosbult.github.io/IP-Address-Tracker/">Ver
+                            Proyecto</a>
+                        <a class="projects__button--code" href="https://github.com/carlosbult/IP-Address-Tracker">
+                            Ver Código
+                            <span><i class="far fa-file-code"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projects__item">
                     <img class="projects__img" src="src/assets/calculator" alt="">
                     <div class="projects__text">
                         <h3 class="projects__text--tittle">Calculator With JavaScript</h3>
@@ -130,47 +140,11 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects__item">
-                    <img class="projects__img " src="src/assets/Desing.jpg" alt="">
-                    <div class="projects__text">
-                        <h3 class="projects__text--tittle">Profile Card Component</h3>
-                        <a class="projects__button"
-                            href="https://profile-card-component-using-html-and-css-frontend-mentor.vercel.app/">Ver
-                            Proyecto</a>
-                        <a class="projects__button--code"
-                            href="https://github.com/carlosbult/Profile-Card-Component-using-HTML-and-CSS-FrontendMentor">
-                            Ver Código
-                            <span><i class="far fa-file-code"></i></span></a>
-                    </div>
-                </div>
             </section>
         </main>
 
-        <!-- <form id="form">
-            <legend>Contacto</legend>
-            <label for="mail">Correo</label>
-            <input name="mail" type="email" id="mail"
-                pattern="^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$"
-                title="Por favor introduzca un correo valido" required>
-
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name" title="Por favor introduzca un nombre valido" required>
-
-            <label for="asunto">Asunto</label>
-            <input type="text" id="asunto" name="asunto" required>
-
-            <br>
-            <label for="mensaje">Mensaje</label>
-            <textarea name="" id="mensaje"></textarea>
-
-            <input type="submit" value="Enviar" class="submit">
-        </form> -->
-
         <footer class="footer">
             <div class="logos">
-                <!-- <a class="logos-link" href="">
-                    <i class="fas fa-envelope"></i>
-                </a> -->
                 <a class="logos-link" href="https://www.linkedin.com/in/carlosbult/" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>

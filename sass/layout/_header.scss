@@ -1,0 +1,38 @@
+.menu {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: tomato;
+
+  .fa-ellipsis-v {
+    display: none;
+  }
+
+  .logo {
+    padding: 1em;
+  }
+
+  &__img {
+    height: 100%;
+    margin-left: 1em;
+  }
+
+  &__nav {
+    width: 50%;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    &--item {
+      padding: 0 1em;
+      list-style: none;
+      a:hover {
+        color: #eee;
+        border-bottom: 2px solid #eee;
+      }
+    }
+  }
+}
