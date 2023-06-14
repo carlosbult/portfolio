@@ -7,12 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "messages:extract": "lingui extract"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@lingui/macro": "^4.2.1",
-    "@lingui/react": "^4.2.1",
     "@react-three/drei": "^9.66.1",
     "@react-three/fiber": "^8.13.0",
     "framer-motion": "^10.12.5",
@@ -26,13 +25,10 @@
     "use": "^3.1.1"
   },
   "devDependencies": {
-    "@lingui/cli": "^4.2.1",
-    "@lingui/vite-plugin": "^4.2.1",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
-    "babel-plugin-macros": "^3.1.0",
     "eslint": "^8.38.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
