@@ -29,36 +29,33 @@ import {
   microverse,
 } from '../assets';
 
+
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'nav-bar.about',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'nav-bar.projects',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'nav-bar.contact',
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'about:services.frontend',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'about:services.backend',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
-  },
-  {
-    title: 'Software Prototyping',
+    title: 'about:services.software',
     icon: prototyping,
   },
 ];

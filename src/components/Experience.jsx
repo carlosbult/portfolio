@@ -10,6 +10,8 @@ import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
 
+import { useTranslation } from 'react-i18next';
+
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
@@ -52,14 +54,15 @@ const ExperienceCard = ({ experience }) => (
 );
 
 const Experience = () => {
+  const { t } = useTranslation();
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+          {t('experience:sub-title')}
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-          Work Experience.
+          {t('experience:title')}
         </h2>
       </motion.div>
 
@@ -96,7 +99,7 @@ const Experience = () => {
               sm:text-[18px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
               whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-              w-[125px] h-[46px] rounded-[10px] bg-jetLight 
+              w-[150px] h-[46px] rounded-[10px] bg-jetLight 
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
@@ -116,7 +119,7 @@ const Experience = () => {
                   .querySelector('.download-btn')
                   .setAttribute('src', download);
               }}>
-              MY RESUME
+              {t('experience:resume')}
               <img
                 src={download}
                 alt="download"

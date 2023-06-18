@@ -6,7 +6,8 @@ import {
   Hero,
   Navbar,
   Tech,
-  Projects
+  Projects,
+  LanguageSwitcher
 } from './components'
 
 const App = () => {
@@ -39,6 +40,10 @@ const App = () => {
         </div>
         <div className='relative z-0'>
           <Contact />
+        </div>
+
+        <div>
+          <LanguageSwitcher />
         </div>
       </div>
     </BrowserRouter>

@@ -1,4 +1,5 @@
 import bwmap from './backgrounds/bw-map.jpeg';
+import bgHero from './backgrounds/bg-hero.png';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
@@ -53,6 +54,7 @@ import space from './projects/space-hub.png';
 export {
   bwmap,
   nairobi,
+  bgHero,
   whiteabstract,
   worldmap,
   logo,
