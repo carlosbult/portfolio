@@ -21,12 +21,12 @@ const LanguageSwitcher = () => {
         <div className="fixed left-2 bottom-2 p-4 rounded-lg bg-black-100 ">
             {currentLanguage !== 'en' && (
                 <button onClick={() => changeLanguage('en')}>
-                    English
+                    Inglés
                 </button>
             )}
             {currentLanguage !== 'es' && (
                 <button onClick={() => changeLanguage('es')}>
-                    Español
+                    Spanish
                 </button>
             )}
         </div>

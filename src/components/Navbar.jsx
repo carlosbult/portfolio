@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-2 fixed 
+      className={`${styles.paddingX} w-full flex items-center py-2 fixed
       top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
@@ -42,8 +42,9 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`${active === nav.title ? 'text-french' : 'text-eerieBlack'
-                } hover:text-taupe text-[21px] font-medium font-mova 
+              className={`${
+                active === nav.title ? 'text-french' : 'text-eerieBlack'
+              } hover:text-taupe text-[21px] font-medium font-mova
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
               <a href={`#${nav.id}`}>{t(nav.title)}</a>
@@ -55,8 +56,9 @@ const Navbar = () => {
         <div className='sm:hidden flex flex-1 w-screen justify-end items-center'>
           {toggle ? (
             <div
-              className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${toggle ? 'menu-open' : 'menu-close'
+              className={`p-6 bg-flashWhite opacity-[0.98] absolute
+                top-0 left-0 w-screen h-[100vh] z-10 menu ${
+                  toggle ? 'menu-open' : 'menu-close'
                 }`}>
               <div className='flex justify-end'>
                 <img
@@ -73,8 +75,9 @@ const Navbar = () => {
                   <li
                     id={nav.id}
                     key={nav.id}
-                    className={`${active === nav.title ? 'text-french' : 'text-eerieBlack'
-                      } text-[88px] font-bold font-arenq
+                    className={`${
+                      active === nav.title ? 'text-french' : 'text-eerieBlack'
+                    } text-[88px] font-bold font-arenq
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle)

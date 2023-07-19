@@ -5,6 +5,7 @@ import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import { send, sendHover } from '../assets'
+import { socialMedia } from '../constants'
 
 import { useTranslation } from 'react-i18next'
 
@@ -68,8 +69,8 @@ const Contact = () => {
       flex gap-10 overflow-hidden'>
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className='flex-[0.75] bg-jet p-8 rounded-2xl'>
-        <p className={styles.sectionSubText}>{t('contact:sub-title')}</p>
+        className='flex-[0.75] bg-tertiary p-8 rounded-2xl'>
+        <p className={styles.sectionSubTextLight}>{t('contact:sub-title')}</p>
         <h3 className={styles.sectionHeadTextLight}>{t('contact:title')}</h3>
 
         <form
@@ -77,7 +78,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className='mt-10 flex flex-col gap-6 font-poppins'>
           <label className='flex flex-col'>
-            <span className='text-timberWolf font-medium mb-4'>
+            <span className='text-primary font-medium mb-4'>
               {t('contact:labels.name')}
             </span>
             <input
@@ -86,14 +87,14 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder={t('contact:inputs.name')}
-              className='bg-eerieBlack py-4 px-6
+              className='bg-tertiary py-4 px-6
               placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium'
+              text-primary rounded-lg
+              font-medium border-solid border-2 border-night outline-none'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-timberWolf font-medium mb-4'>
+            <span className='text-primary font-medium mb-4'>
               {t('contact:labels.email')}
             </span>
             <input
@@ -102,14 +103,14 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder={t('contact:inputs.email')}
-              className='bg-eerieBlack py-4 px-6
+              className='bg-tertiary py-4 px-6
               placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium'
+              text-primary rounded-lg
+            font-medium border-solid border-2 border-night outline-none'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-timberWolf font-medium mb-4'>
+            <span className='text-primary font-medium mb-4'>
               {t('contact:labels.message')}
             </span>
             <textarea
@@ -118,10 +119,10 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder={t('contact:inputs.message')}
-              className='bg-eerieBlack py-4 px-6
+              className='bg-tertiary py-4 px-6
               placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium resize-none'
+              text-primary rounded-lg outline-none
+              font-medium resize-none border-solid border-2 border-night '
             />
           </label>
 
@@ -130,9 +131,9 @@ const Contact = () => {
             className='live-demo flex justify-center sm:gap-4 
             gap-3 sm:text-[20px] text-[16px] text-timberWolf 
             font-bold font-beckman items-center py-5
-            whitespace-nowrap sm:w-[130px] sm:h-[50px] 
+            whitespace-nowrap sm:w-[130px] sm:h-[50px] bg-primary
             w-[100px] h-[45px] rounded-[10px] bg-night 
-            hover:bg-battleGray hover:text-eerieBlack 
+            hover:bg-secondary hover:text-eerieBlack 
             transition duration-[0.2s] ease-in-out'
             onMouseOver={() => {
               document
@@ -153,6 +154,25 @@ const Contact = () => {
             />
           </button>
         </form>
+
+        <div className='flex w-full justify-around mt-10'>
+          {socialMedia.map((social, index) => (
+            <a
+              key={index}
+              href={social.link}
+              target='_blank'
+              rel='noreferrer'
+              className='w-[40px] h-[40px]
+              flex justify-center items-center
+              transition duration-[0.2s] ease-in-out'>
+              <img
+                src={social.icon}
+                alt={social.id}
+                className='w-[35px] h-[35px] object-contain'
+              />
+            </a>
+          ))}
+        </div>
       </motion.div>
     </div>
   )

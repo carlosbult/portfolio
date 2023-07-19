@@ -119,14 +119,14 @@ const Projects = () => {
   return (
     <div className='-mt-[6rem]'>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>{t('projects:useCases')}</p>
+        <p className={`${styles.sectionSubTextLight} `}>{t('projects:useCases')}</p>
         <h2 className={`${styles.sectionHeadTextLight}`}>{t('projects:projects')}</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
-          className='mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]'>
+          className='mt-4 text-primary text-[18px] max-w-3xl leading-[30px]'>
           {t('projects:description')}
         </motion.p>
       </div>

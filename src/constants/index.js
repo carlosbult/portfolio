@@ -27,128 +27,148 @@ import {
   dcc,
   kelhel,
   microverse,
-} from '../assets';
+  instagram,
+  twitter,
+  linkedin
+} from '../assets'
 
+export const socialMedia = [
+  {
+    id: 'instagram',
+    icon: instagram,
+    link: 'https://www.instagram.com/carlosbult/'
+  },
+  {
+    id: 'twitter',
+    icon: twitter,
+    link: 'https://twitter.com/CarlosBult'
+  },
+  {
+    id: 'linkedin',
+    icon: linkedin,
+    link: 'https://www.linkedin.com/in/carlosbult/'
+  }
+]
 
 export const navLinks = [
   {
     id: 'about',
-    title: 'nav-bar.about',
+    title: 'nav-bar.about'
   },
   {
     id: 'projects',
-    title: 'nav-bar.projects',
+    title: 'nav-bar.projects'
   },
   {
     id: 'contact',
-    title: 'nav-bar.contact',
-  },
-];
+    title: 'nav-bar.contact'
+  }
+]
 
 const services = [
   {
     title: 'about:services.frontend',
-    icon: frontend,
+    icon: frontend
   },
   {
     title: 'about:services.backend',
-    icon: backend,
+    icon: backend
   },
   {
     title: 'about:services.software',
-    icon: prototyping,
-  },
-];
+    icon: prototyping
+  }
+]
 
 const technologies = [
   {
     name: 'HTML 5',
-    icon: html,
+    icon: html
   },
   {
     name: 'CSS 3',
-    icon: css,
+    icon: css
   },
   {
     name: 'JavaScript',
-    icon: javascript,
+    icon: javascript
   },
   {
     name: 'TypeScript',
-    icon: typescript,
+    icon: typescript
   },
   {
     name: 'React JS',
-    icon: reactjs,
+    icon: reactjs
   },
   {
     name: 'Redux Toolkit',
-    icon: redux,
+    icon: redux
   },
   {
     name: 'Tailwind CSS',
-    icon: tailwind,
+    icon: tailwind
   },
   {
     name: 'Node JS',
-    icon: nodejs,
+    icon: nodejs
   },
   {
     name: 'Rails',
-    icon: rubyrails,
+    icon: rubyrails
   },
   {
     name: 'graphql',
-    icon: graphql,
+    icon: graphql
   },
   {
     name: 'postgresql',
-    icon: postgresql,
+    icon: postgresql
   },
   {
     name: 'git',
-    icon: git,
+    icon: git
   },
   {
     name: 'figma',
-    icon: figma,
+    icon: figma
   },
   {
     name: 'docker',
-    icon: docker,
-  },
-];
+    icon: docker
+  }
+]
 
 const experiences = [
   {
     title: 'Front-End Developer',
     company_name: 'Cover Hunt',
     icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    iconBg: '#17161F',
+    date: 'Aug 2021 - Feb 2022'
   },
   {
     title: 'Mentor (Volunteer)',
     company_name: 'Microverse',
     icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    iconBg: '#17161F',
+    date: 'Mar 2022 - May 2022'
   },
   {
     title: 'Junior Software Engineer',
     company_name: 'Kelhel',
     icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    iconBg: '#17161F',
+    date: 'May 2022 - Oct 2022'
   },
   {
     title: 'Full Stack Developer',
     company_name: 'Diversity Cyber Council',
     icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
-];
+    iconBg: '#17161F',
+    date: 'Sep 2022 - Present'
+  }
+]
 
 const projects = [
   {
@@ -158,20 +178,20 @@ const projects = [
     tags: [
       {
         name: 'react',
-        color: 'blue-text-gradient',
+        color: 'blue-text-gradient'
       },
       {
         name: 'mongodb',
-        color: 'green-text-gradient',
+        color: 'green-text-gradient'
       },
       {
         name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
+        color: 'pink-text-gradient'
+      }
     ],
     image: komikult,
     repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    demo: 'https://shaqdeff.github.io/KomiKult/'
   },
   {
     id: 'project-2',
@@ -181,20 +201,20 @@ const projects = [
     tags: [
       {
         name: 'react',
-        color: 'blue-text-gradient',
+        color: 'blue-text-gradient'
       },
       {
         name: 'restapi',
-        color: 'green-text-gradient',
+        color: 'green-text-gradient'
       },
       {
         name: 'scss',
-        color: 'pink-text-gradient',
-      },
+        color: 'pink-text-gradient'
+      }
     ],
     image: leaderboard,
     repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    demo: 'https://shaqdeff.github.io/Leaderboard/'
   },
   {
     id: 'project-3',
@@ -203,20 +223,20 @@ const projects = [
     tags: [
       {
         name: 'nextjs',
-        color: 'blue-text-gradient',
+        color: 'blue-text-gradient'
       },
       {
         name: 'supabase',
-        color: 'green-text-gradient',
+        color: 'green-text-gradient'
       },
       {
         name: 'css',
-        color: 'pink-text-gradient',
-      },
+        color: 'pink-text-gradient'
+      }
     ],
     image: math,
     repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    demo: 'https://inspiring-medovik-37d3b3.netlify.app/'
   },
   {
     id: 'project-4',
@@ -225,20 +245,20 @@ const projects = [
     tags: [
       {
         name: 'nextjs',
-        color: 'blue-text-gradient',
+        color: 'blue-text-gradient'
       },
       {
         name: 'supabase',
-        color: 'green-text-gradient',
+        color: 'green-text-gradient'
       },
       {
         name: 'css',
-        color: 'pink-text-gradient',
-      },
+        color: 'pink-text-gradient'
+      }
     ],
     image: movie,
     repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    demo: 'https://movie-metro.netlify.app/'
   },
   {
     id: 'project-5',
@@ -248,21 +268,21 @@ const projects = [
     tags: [
       {
         name: 'nextjs',
-        color: 'blue-text-gradient',
+        color: 'blue-text-gradient'
       },
       {
         name: 'supabase',
-        color: 'green-text-gradient',
+        color: 'green-text-gradient'
       },
       {
         name: 'css',
-        color: 'pink-text-gradient',
-      },
+        color: 'pink-text-gradient'
+      }
     ],
     image: nyeusi,
     repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
-];
+    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/'
+  }
+]
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects }

@@ -14,20 +14,21 @@ const Hero = () => {
       <div className='absolute top-0 left-0 z-0 h-[100vh] w-screen'>
         <img
           src={bgHero}
-          alt='world map'
+          alt='Hero Background'
           className='w-full h-full sm:block hidden object-cover'
         />
       </div>
       <div className='absolute top-0 left-0 z-0 h-[100vh] w-screen'>
         <img
           src={bgHero}
-          alt='world map'
+          alt='Hero Background'
           className='w-full h-full sm:hidden block object-cover'
         />
       </div>
       <section
-        className='relative flex sm:flex-row flex-col w-full h-screen mx-auto
-        sm:bg-hero bg-hero-mobile overflow-hidden'>
+        className='relative flex sm:flex-row flex-col w-full h-screen mx-auto overflow-hidden 
+        sm:bg-hero bg-hero-mobile
+        '>
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px]
           lg:top-[150px] xl:top-[250px] ${styles.paddingX}
@@ -42,30 +43,30 @@ const Hero = () => {
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
               {t('hero:welcomeTest')}
+              <br />
               <span
-                className='sm:text-battleGray sm:text-[90px]
-                text-eerieBlack text-[50px] font-mova
-                font-extrabold uppercase'>
+                className='text-gradient sm:text-battleGray sm:text-[90px]
+                text-[50px] font-mova font-extrabold uppercase'>
                 {t('hero:name')}
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            <p className={`${styles.heroSubText} mt-2 text-tertiary`}>
               {t('hero:excerpt')}
             </p>
           </div>
           <div
-            className='w-screen flex flex-col items-start 
+            className='w-screen flex flex-col items-start
             justify-center sm:-ml-[3rem] xxs:mt-4'></div>
 
           <div></div>
         </div>
 
         <div
-          className='absolute xs:bottom-10 bottom-32 w-full 
+          className='absolute xs:bottom-10 bottom-32 w-full
           flex justify-center items-center'>
           <a href='#about'>
             <div
-              className='w-[35px] h-[64px] rounded-3xl border-4 
+              className='w-[35px] h-[64px] rounded-3xl border-4
             border-french border-dim flex
             justify-center items-start p-2'>
               <motion.div
