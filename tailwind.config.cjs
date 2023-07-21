@@ -54,7 +54,8 @@ export default {
         hero: 'linear-gradient(135deg, rgba(244,244,246,0) 60%, rgba(23,22,31,0.75) 60%)',
         'hero-mobile':
           'linear-gradient(137deg, rgba(244,244,246,0) 60%, rgba(10,10,10,0.75) 60%)',
-        tech: 'linear-gradient(165deg, rgba(255,255,255,1) 100%, rgba(109,109,116,0.8) 100%)'
+        tech: 'linear-gradient(165deg, rgba(255,255,255,1) 100%, rgba(109,109,116,0.8) 100%)',
+        projects: 'linear-gradient(165deg,rgba(23,22,31,1) 100%, rgba(255,99,71,1) 100%,)'
       },
       fontFamily: {
         arenq: ['Arenq'],

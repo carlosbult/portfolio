@@ -27,7 +27,7 @@ const Navbar = () => {
           <img
             src={logo} // your logo comes here
             alt='logo'
-            className='sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain'
+            className='sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain mr-4'
           />
 
           {/* if you have text you want besides your logo it comes here.

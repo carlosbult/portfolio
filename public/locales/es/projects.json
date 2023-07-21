@@ -1,5 +1,54 @@
 {
-    "useCases": "Casos de estudio",
-    "projects": "Proyectos",
-    "description": "Estos proyectos demuestran mi experiencia con ejemplos prácticos de algunos de mis trabajos, incluyendo breves descripciones y enlaces a repositorios de código y demos en vivo. Muestran mi capacidad para afrontar nuevos retos, adaptarme a diversas tecnologías y supervisar proyectos de forma eficiente."
+  "useCases": "Casos de estudio",
+  "projects": "Proyectos",
+  "description": "Estos proyectos demuestran mi experiencia con ejemplos prácticos de algunos de mis trabajos, incluyendo breves descripciones y enlaces a repositorios de código y demos en vivo. Muestran mi capacidad para afrontar nuevos retos, adaptarme a diversas tecnologías y supervisar proyectos de forma eficiente.",
+  "goProject": "Ir al proyecto",
+  "fonet": {
+    "name": "Sistema de pagos Fonet",
+    "description": [
+      "Sistema de pagos para el ISP Fonet C.A, es un sistema integrado con el software Mikrowisp y distintas entidades bancarias venezolanas para realizar el proceso de pago, registro y activacion de los servicios de los clientes de la empresa."
+    ]
+  },
+  "noticieroamerica": {
+    "name": "Noticiero América",
+    "description": [
+      "Noticiero América es un portal de noticias de Venezuela, el cual cuenta con un sistema de administración de noticias, usuarios, comentarios, categorías, etiquetas, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+    ]
+  },
+  "sanmartin": {
+    "name": "San Martín App",
+    "description": [
+      "Desarrollo de APP para el equipo de futbol argentino San Martín de San Juan, la cual cuenta con un sistema de administración de noticias, jugadores, partidos, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+    ]
+  },
+  "diversogroup": {
+    "name": "Diverso Group Web",
+    "description": [
+      "Pagina de la agencia de publicidad Diverso Group, la cual cuenta con un sistema de administración de noticias, clientes, servicios, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+    ]
+  },
+  "transportex": {
+    "name": "Transaportex App",
+    "description": [
+      "Desarrollo de APP para la empresa de transporte venezolana Transaportex, la cual cuenta con un sistema de administración de noticias, rutas, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+    ]
+  },
+  "froz": {
+    "name": "Froz Sports Development",
+    "description": [
+      "Sistema de manejo de equipos deportivos, el cual cuenta con un sistema de administración de jugadores, equipos, partidos, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+    ]
+  },
+  "isuzu-orders": {
+    "name": "Sistema de ordenes Isuzu",
+    "description": [
+      "Sistema de ordenes para la empresa Isuzu de Venezuela, el cual cuenta con un sistema de administración de ordenes, clientes, productos, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+    ]
+  },
+  "isuzu-kpi": {
+    "name": "Sistema de KPI Isuzu",
+    "description": [
+      "Sistema de KPI para la empresa Isuzu de Venezuela, el cual cuenta con un sistema de administración de KPI, clientes, productos, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+    ]
+  }
 }

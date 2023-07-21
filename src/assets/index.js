@@ -41,11 +41,22 @@ import typescript from './tech/typescript.png'
 import graphql from './tech/graphql.png'
 import postgresql from './tech/postgresql.png'
 import rubyrails from './tech/rubyrails.png'
+import linux from './tech/linux.png'
+import php from './tech/php.png'
+import mysql from './tech/mysql.png'
+import wordpress from './tech/wordpress.png'
+import mongodb from './tech/mongodb.png'
+import nestjs from './tech/nestjs.png'
+import express from './tech/express.png'
+import prisma from './tech/prisma.png'
+import nextjs from './tech/nextjs.png'
 
 import coverhunt from './company/coverhunt.png'
 import dcc from './company/dcc.png'
 import kelhel from './company/kelhel.png'
 import microverse from './company/microverse.png'
+import sitioUno from './company/sitioUnoLogo.png'
+import softop from './company/softop.jpg'
 
 import komikult from './projects/komikult.png'
 import leaderboard from './projects/leaderboard.png'
@@ -103,5 +114,16 @@ export {
   microverse,
   instagram,
   linkedin,
-  twitter
+  twitter,
+  linux,
+  php,
+  mysql,
+  wordpress,
+  mongodb,
+  nestjs,
+  express,
+  prisma,
+  nextjs,
+  sitioUno,
+  softop
 }

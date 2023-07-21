@@ -6,7 +6,6 @@ import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import { send, sendHover } from '../assets'
 import { socialMedia } from '../constants'
-
 import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
@@ -33,16 +32,16 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_6kwxy58', // paste your ServiceID here (you'll get one when your service is created).
+        'template_llp5da6', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'YourName', // put your name here.
+          to_name: 'Carlos Acevedo Bult', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'acevedo.bult@gmail.com', //put your email here.
           message: form.message
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'KG9d9ZSZAGyu3Wy97' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
@@ -84,6 +83,7 @@ const Contact = () => {
             <input
               type='text'
               name='name'
+              required
               value={form.name}
               onChange={handleChange}
               placeholder={t('contact:inputs.name')}
@@ -101,6 +101,7 @@ const Contact = () => {
               type='email'
               name='email'
               value={form.email}
+              required
               onChange={handleChange}
               placeholder={t('contact:inputs.email')}
               className='bg-tertiary py-4 px-6
@@ -116,6 +117,7 @@ const Contact = () => {
             <textarea
               rows='7'
               name='message'
+              required
               value={form.message}
               onChange={handleChange}
               placeholder={t('contact:inputs.message')}
@@ -132,7 +134,7 @@ const Contact = () => {
             gap-3 sm:text-[20px] text-[16px] text-timberWolf 
             font-bold font-beckman items-center py-5
             whitespace-nowrap sm:w-[130px] sm:h-[50px] bg-primary
-            w-[100px] h-[45px] rounded-[10px] bg-night 
+            w-[150px] h-[45px] rounded-[10px] bg-night 
             hover:bg-secondary hover:text-eerieBlack 
             transition duration-[0.2s] ease-in-out'
             onMouseOver={() => {

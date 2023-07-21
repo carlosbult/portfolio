@@ -7,54 +7,15 @@ import 'react-vertical-timeline-component/style.min.css'
 import { styles } from '../styles'
 import { experiences } from '../constants'
 import { SectionWrapper } from '../hoc'
-import { download, downloadHover, resume } from '../assets'
 import { textVariant } from '../utils/motion'
+import { download, downloadHover, resume } from '../assets'
+import { ExperienceCard } from './ExperienceCard'
 
 import { useTranslation } from 'react-i18next'
 
-const ExperienceCard = ({ experience }) => (
-  <VerticalTimelineElement
-    contentStyle={{
-      background: '#eaeaec',
-      color: '#17161F',
-      boxShadow:
-        'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px'
-    }}
-    contentArrowStyle={{
-      borderRight: '7px solid #eaeaec'
-    }}
-    date={
-      <div>
-        <h3 className='text-primary text-[18px] font-bold font-beckman'>
-          {experience.date}
-        </h3>
-      </div>
-    }
-    iconStyle={{ background: experience.iconBg }}
-    icon={
-      <div className='flex justify-center items-center w-full h-full'>
-        <img
-          src={experience.icon}
-          alt={experience.company_name}
-          className='w-[60%] h-[60%] object-contain'
-        />
-      </div>
-    }>
-    <div>
-      <h3 className='text-jetLight text-[24px] font-bold font-beckman tracking-[2px]'>
-        {experience.title}
-      </h3>
-      <p
-        className='text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]'
-        style={{ margin: 0 }}>
-        {experience.company_name}
-      </p>
-    </div>
-  </VerticalTimelineElement>
-)
-
 const Experience = () => {
   const { t } = useTranslation()
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -71,7 +32,7 @@ const Experience = () => {
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             contentStyle={{
               background: '#eaeaec',
               color: '#17161F',
@@ -127,7 +88,7 @@ const Experience = () => {
                 w-[23px] h-[23px] object-contain'
               />
             </button>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </>
