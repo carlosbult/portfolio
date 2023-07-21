@@ -1,0 +1,92 @@
+{
+  "useCases": "Case Studies",
+  "projects": "Projects",
+  "description": "These projects demonstrate my expertise with practical examples of some of my work, including brief descriptions and links to code repositories and live demos. They showcase my ability to tackle intricate challenges, adapt to various technologies, and efficiently oversee projects.",
+  "goProject": "Go to project",
+  "fonet": {
+    "name": "Fonet Pay System",
+    "description": [
+      "I participated in the development of a payment integration system for Fonet C.A., an internet service provider in Venezuela. The project included the integration of several payment methods such as Banesco, Bancaribe, Banco Plaza, and Credicard. Additionally, Plaid was incorporated to verify USD payments through Zelle, a registration module for manual payments, and Binance for USDT transactions.",
+
+      "For this development, I used a technology stack composed of NextJS for the front-end, ExpressJS for the back-end and MongoDB for data storage. The system was deployed on Linux servers via Amazon Lightsail, where QA and production instances were set up for testing and development of new features.",
+
+      "We also worked with authorized Profit Plus system developers to send reports of payments successfully made to automate the process of bank reconciliations and automatic invoices, giving greater effectiveness to the company's accounting process.",
+
+      "This project significantly expanded the payment options available to Fonet C.A.'s customers, also automating the service activation process, resulting in a significant improvement in the company's operational efficiency."
+    ]
+  },
+  "noticieroamerica": {
+    "name": "Noticiero América Website",
+    "description": [
+      "I was the lead developer on the Noticiero America project, an integral part of the Venezuelan radio network Radio America. The objective was to create a website for the publication of news by the company's team of reporters. It was also needed to integrate the website with the radio server to allow the live broadcasting of the radio station through the web.",
+
+      "This project was done using WordPress, building the theme from scratch with PHP, without the use of template builders. This custom approach allowed for optimized design and functionality to exactly meet the client's needs.",
+
+      "As the main goal of this project is for the Noticiero America team to increase their digital reach and provide easier and more direct access to their content for listeners, both through news publications and live radio broadcasting."
+    ]
+  },
+  "sanmartin": {
+    "name": "San Martín Athletic Club App",
+    "description": [
+      "I participated in the development of a mobile application for Club Atlético San Martín, a prominent Argentinean soccer team. This application was created to provide fans with access to match dates, ticket sales, club news and videos, and to manage the registration of members to the different membership plans.",
+
+      "My main contribution to the project was the development of the backend using NestJs. My work was focused on ensuring an efficient and secure communication with the MySQL database and on the Mercado Pago integration to handle the ticket purchase process and the registration of the transactions made.",
+
+      "The mobile application was developed using React Native, while the administrative panel was built with NextJs. Through my work on this project, I was able to contribute to the creation of a unified platform to meet all the information and management needs related to the club."
+    ]
+  },
+  "diversogroup": {
+    "name": "Diverso Group Web",
+    "description": [
+      "I worked on the development of the website for Diverso Group, a creative agency with international presence that creates high quality content for its audience. The website was designed to showcase the agency's portfolio of work, as well as to facilitate the sale of courses and physical products such as stickers and agendas, all manufactured by themselves.",
+
+      "The website was developed using WordPress with Elementor, making minimal use of custom code to optimize development time. We took advantage of WordPress, including its page builders and plugins, to create a platform that met the client's goals.",
+
+      "The site also features a direct integration with Stripe to handle payment transactions and Tutor LMS for the implementation of the company's course offerings. This approach allowed for the quick and efficient creation of a functional and aesthetically pleasing website that meets Diverso Group's business and creative needs."
+    ]
+  },
+  "transportex": {
+    "name": "Transportex App",
+    "description": [
+      "I was part of the mobile application development team for Transportex, a transportation company with presence in Mexico, Argentina and Venezuela. The purpose of this app is to allow the drivers of the company's trucks to update their travel hours and mileage, providing the company with an efficient way to keep track of these metrics for each truck and driver.",
+
+      "For the development of the mobile app, we used React Native, taking advantage of its ability to provide a consistent user experience across multiple platforms. The server was built with NestJs, a Node.js framework that makes it easy to build efficient and scalable software.",
+
+      "The application is designed specifically for employees with valid credentials, ensuring that only authorized personnel can access and update information. This functionality provides a higher level of security and accuracy in tracking work hours and mileage."
+    ]
+  },
+  "froz": {
+    "name": "Froz Sports Development",
+    "description": [
+      "I contributed in the development of a web system for Froz Sports Development, a company located in Valencia, Carabobo, dedicated to guide students and athletes seeking to obtain college scholarships in the United States through their soccer talent and academic performance.",
+
+      "The main focus of this project was to create a system that would provide applicants with guides and contacts to universities in the United States. Thus, facilitating the search and application for soccer scholarships, simplifying a process that could be complex for students.",
+
+      "In technical terms, the stack used included ReactJS for frontend development, ExpressJS for the backend and MongoDB for data storage. My contribution on this project was on both the backend and frontend, allowing for a seamless integration between both parts for an optimized end-user experience.",
+
+      "As a result, Froz Sports Development now has an effective platform that can help students and athletes achieve their academic and athletic dreams in the United States."
+    ]
+  },
+  "isuzu-orders": {
+    "name": "Isuzu Orders System",
+    "description": [
+      "I was the lead developer in the creation of a system for Isuzu, a leading trucking company, under a tertiary contract. The objective of the system was to facilitate the purchase registration of Isuzu's customers in several Latin American countries.",
+
+      "The system was implemented in WordPress at the client's request. However, PHP was used to develop all the model and business logic, along with JavaScript and jQuery for sending data to MySQL. This project also required the creation of custom tables in the WordPress database to meet Isuzu's specific needs.",
+
+      "Although I worked in a subcontract capacity and had no direct contact with the client, my work in developing the system allowed Isuzu to efficiently track and manage their customer purchases regionally. This project highlights my ability to adapt and customize the development tools to the client's specific needs, even in a subcontracting environment."
+    ]
+  },
+  "isuzu-kpi": {
+    "name": "Isuzu KPI System",
+    "description": [
+      "I was the lead developer on a tertiary contracting project for Isuzu, the well known trucking company. This project consisted of developing a system for recording customer data that was then sent to PowerBI for various metrics that the company required.",
+
+      "The database used in this case was MySQL, which connects directly to PowerBI. This database is fed with the information provided by customers through the system developed in WordPress.",
+
+      "Although the system was implemented in WordPress, as in previous projects, all the code was written in pure PHP to ensure maximum flexibility and efficiency. The system I developed helps Isuzu track and analyze their KPIs more efficiently, providing valuable insights to inform the company's decision making.",
+
+      "This project demonstrates my ability to work effectively in outsourcing environments and to develop custom systems that align with specific client needs."
+    ]
+  }
+}
