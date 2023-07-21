@@ -6,49 +6,87 @@
   "fonet": {
     "name": "Sistema de pagos Fonet",
     "description": [
-      "Sistema de pagos para el ISP Fonet C.A, es un sistema integrado con el software Mikrowisp y distintas entidades bancarias venezolanas para realizar el proceso de pago, registro y activacion de los servicios de los clientes de la empresa."
+      "Participe en el desarrollo de un sistema de integración de pagos para Fonet C.A., un proveedor de servicios de internet en Venezuela. El proyecto incluyó la integración de varios métodos de pago como Banesco, Bancaribe, Banco Plaza, y Credicard. Adicionalmente, se incorporo Plaid para verificar pagos en USD a través de Zelle, un módulo de registro para pagos manuales y Binance para transacciones en USDT.",
+
+      "Para este desarrollo, utilicé un stack tecnológico compuesto por NextJS para el front-end, ExpressJS para el back-end y MongoDB para el almacenamiento de datos. El sistema se desplegó en servidores Linux a través de Amazon Lightsail, donde se establecieron instancias de QA y producción para pruebas y desarrollo de nuevas características.",
+
+      "Tambien se realizo un trabajo en conjunto con desarrolladores autorizados del sistema Profit Plus para el envio de los reportes de pagos realizados de manera exitosa para automatizar el proceso de conciliaciones bancarias y facturas automaticas, dando asi mayor efectividad al proceso contable de la empresa",
+
+      "Este proyecto expandió significativamente las opciones de pago disponibles para los clientes de Fonet C.A., automatizando también el proceso de activación del servicio, lo que resultó en una mejora importante de la eficiencia operativa de la empresa."
     ]
   },
   "noticieroamerica": {
-    "name": "Noticiero América",
+    "name": "Portal Web Noticiero América",
     "description": [
-      "Noticiero América es un portal de noticias de Venezuela, el cual cuenta con un sistema de administración de noticias, usuarios, comentarios, categorías, etiquetas, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+      "Fui el desarrollador principal en el proyecto de Noticiero America, una parte integral de la cadena radial venezolana Radio America. El objetivo era crear un sitio web para la publicación de noticias por parte del equipo de reporteros de la empresa. También se necesitaba integrar la web con el servidor de la radio para permitir la transmisión en vivo de la estación radial a través de la web.",
+
+      "Este proyecto se realizó utilizando WordPress, construyendo el tema desde cero con PHP, sin el uso de constructores de plantillas. Este enfoque personalizado permitió un diseño y funcionalidad optimizados para satisfacer exactamente las necesidades del cliente.",
+
+      "Como objetivo principal de este proyecto es que el equipo de Noticiero America pueda aumentar su alcance digital y proporcionar un acceso más fácil y directo a sus contenidos para los oyentes, tanto a través de las publicaciones de noticias como de la transmisión en vivo de la radio."
     ]
   },
   "sanmartin": {
-    "name": "San Martín App",
+    "name": "Club Atlético San Martín App",
     "description": [
-      "Desarrollo de APP para el equipo de futbol argentino San Martín de San Juan, la cual cuenta con un sistema de administración de noticias, jugadores, partidos, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+      "Participé en el desarrollo de una aplicación móvil para el Club Atlético San Martín, un destacado equipo de fútbol argentino. Esta aplicación fue creada para proporcionar a los aficionados acceso a las fechas de los partidos, venta de entradas, noticias y videos del club, y para gestionar el registro de los socios a los diferentes planes de membresía.",
+
+      "Mi principal contribución al proyecto fue el desarrollo del backend utilizando NestJs. Mi trabajo se centró en garantizar una comunicación eficiente y segura con la base de datos MySQL y en la integración de Mercado Pago para manejar el proceso de compra de boletos y el registro de las transacciones realizadas.",
+
+      "La aplicación móvil se desarrolló utilizando React Native, mientras que el panel administrativo se construyó con NextJs. A través de mi trabajo en este proyecto, pude contribuir a la creación de una plataforma unificada para satisfacer todas las necesidades de información y gestión relacionadas con el club."
     ]
   },
   "diversogroup": {
     "name": "Diverso Group Web",
     "description": [
-      "Pagina de la agencia de publicidad Diverso Group, la cual cuenta con un sistema de administración de noticias, clientes, servicios, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+      "Trabajé en el desarrollo de la página web para Diverso Group, una agencia creativa con presencia internacional que crea contenido de alta calidad para su audiencia. El sitio web fue diseñado con el objetivo de exhibir el portafolio de trabajo de la agencia, así como para facilitar la venta de cursos y productos físicos como stickers y agendas, todos fabricados por ellos mismos.",
+
+      "El sitio web se desarrolló utilizando WordPress con Elementor, haciendo uso mínimo de código personalizado para optimizar el tiempo de desarrollo. Aprovechamos las ventajas de WordPress, incluyendo sus constructores de páginas y plugins, para crear una plataforma que cumpliera con los objetivos del cliente.",
+
+      "El sitio también cuenta con una integración directa con Stripe para manejar las transacciones de pago y Tutor LMS para la implementación de los cursos que ofrece la empresa. Este enfoque permitió la creación rápida y eficiente de un sitio web funcional y estéticamente agradable que cumple con las necesidades comerciales y creativas de Diverso Group."
     ]
   },
   "transportex": {
-    "name": "Transaportex App",
+    "name": "Transportex App",
     "description": [
-      "Desarrollo de APP para la empresa de transporte venezolana Transaportex, la cual cuenta con un sistema de administración de noticias, rutas, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+      "Fui parte del equipo de desarrollo de la aplicación móvil para Transportex, una empresa de transporte con presencia en México, Argentina y Venezuela. La finalidad de esta aplicación es permitir a los conductores de los camiones de la empresa actualizar sus horas de recorrido y el kilometraje, ofreciendo a la empresa una manera eficaz de llevar un control de estas métricas para cada camión y conductor.",
+
+      "Para el desarrollo de la aplicación móvil, utilizamos React Native, aprovechando su capacidad para proporcionar una experiencia de usuario consistente en múltiples plataformas. El servidor se construyó con NestJs, un marco de trabajo de Node.js que facilita la construcción de software eficiente y escalable.",
+
+      "La aplicación está diseñada específicamente para empleados con las credenciales válidas, garantizando que solo el personal autorizado pueda acceder y actualizar la información. Esta funcionalidad proporciona un mayor nivel de seguridad y precisión en el seguimiento de las horas de trabajo y el kilometraje."
     ]
   },
   "froz": {
     "name": "Froz Sports Development",
     "description": [
-      "Sistema de manejo de equipos deportivos, el cual cuenta con un sistema de administración de jugadores, equipos, partidos, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+      "Contribuí en el desarrollo de un sistema web para Froz Sports Development, una empresa ubicada en Valencia, Carabobo, dedicada a guiar a estudiantes y atletas que buscan obtener becas universitarias en Estados Unidos a través de su talento en el fútbol y rendimiento académico.",
+
+      "El enfoque principal de este proyecto fue crear un sistema que proporcionara a los aspirantes guías y contactos de universidades en Estados Unidos. Así, se facilita la búsqueda y aplicación a becas para fútbol, simplificando un proceso que podría ser complejo para los estudiantes.",
+
+      "En términos técnicos, el stack utilizado incluyó ReactJS para el desarrollo del frontend, ExpressJS para el backend y MongoDB para el almacenamiento de datos. Mi contribución en este proyecto fue tanto en el backend como en el frontend, permitiendo una integración fluida entre ambas partes para una experiencia de usuario final optimizada.",
+
+      "Como resultado, Froz Sports Development ahora cuenta con una plataforma eficaz que puede ayudar a los estudiantes y atletas a alcanzar sus sueños académicos y deportivos en los Estados Unidos."
     ]
   },
   "isuzu-orders": {
     "name": "Sistema de ordenes Isuzu",
     "description": [
-      "Sistema de ordenes para la empresa Isuzu de Venezuela, el cual cuenta con un sistema de administración de ordenes, clientes, productos, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+      "Fui el desarrollador principal en la creación de un sistema para Isuzu, una destacada empresa de camiones, bajo una contratación terciaria. El objetivo del sistema era facilitar el registro de compras de los clientes de Isuzu en varios países de América Latina.",
+
+      "El sistema se implementó en WordPress a petición del cliente. Sin embargo, se empleó PHP para desarrollar todo el modelo y la lógica de negocio, junto con JavaScript y jQuery para el envío de datos a MySQL. Este proyecto también requirió la creación de tablas personalizadas en la base de datos de WordPress para satisfacer las necesidades específicas de Isuzu.",
+
+      "Aunque trabajé en calidad de subcontratado y no tuve contacto directo con el cliente, mi trabajo en el desarrollo del sistema permitió a Isuzu rastrear y gestionar de manera eficiente las compras de sus clientes a nivel regional. Este proyecto destaca mi habilidad para adaptar y personalizar las herramientas de desarrollo a las necesidades específicas del cliente, incluso en un entorno de subcontratación."
     ]
   },
   "isuzu-kpi": {
     "name": "Sistema de KPI Isuzu",
     "description": [
-      "Sistema de KPI para la empresa Isuzu de Venezuela, el cual cuenta con un sistema de administración de KPI, clientes, productos, etc. Además de un sistema de publicidad y un sistema de suscripción a boletines de noticias."
+      "Fui el desarrollador principal en un proyecto de contratación terciaria para Isuzu, la reconocida empresa de camiones. Este proyecto consistió en desarrollar un sistema para el registro de datos de clientes que luego se enviaban a PowerBI para la realización de diversas métricas que la empresa requería.",
+
+      "La base de datos utilizada en este caso fue MySQL, que se conecta directamente con PowerBI. Esta base de datos se alimenta con la información que los clientes proporcionan a través del sistema desarrollado en WordPress.",
+
+      "A pesar de que el sistema se implementó en WordPress, al igual que en proyectos anteriores, se escribió todo el código en PHP puro para garantizar la máxima flexibilidad y eficiencia. El sistema que desarrollé ayuda a Isuzu a rastrear y analizar sus KPIs de forma más eficiente, proporcionando valiosos insights para informar la toma de decisiones de la empresa.",
+
+      "Este proyecto demuestra mi capacidad para trabajar de manera efectiva en entornos de subcontratación y para desarrollar sistemas personalizados que se alinean con las necesidades específicas de los clientes."
     ]
   }
 }
