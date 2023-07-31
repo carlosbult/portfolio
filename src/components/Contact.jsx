@@ -68,7 +68,7 @@ const Contact = () => {
       flex gap-10 overflow-hidden'>
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className='flex-[0.75] bg-tertiary p-8 rounded-2xl'>
+        className='flex-[0.75] bg-tertiary p-6 rounded-2xl'>
         <p className={styles.sectionSubTextLight}>{t('contact:sub-title')}</p>
         <h3 className={styles.sectionHeadTextLight}>{t('contact:title')}</h3>
 
