@@ -33,14 +33,14 @@ export const ProjectCard = ({
         className='absolute top-0 left-0 z-10 bg-primary
         h-full w-full opacity-[0.5] rounded-[24px]'></div>
 
-      <img
+      {/* <img
         src={image}
         alt={name}
         className='absolute w-full h-full object-cover rounded-[24px]'
-      />
+      /> */}
 
       {active !== id ? (
-        <div className='flex items-center justify-start pr-[10.5rem]'>
+        <div className='flex items-center justify-start pr-[16.5rem]'>
           <h3
             className='font-extrabold font-beckman uppercase w-[200px] h-[30px]
           whitespace-nowrap sm:text-[27px] text-[18px] text-tertiary tracking-[1px]

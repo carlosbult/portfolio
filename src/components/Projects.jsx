@@ -7,7 +7,6 @@ import { fadeIn, textVariant, staggerContainer } from '../utils/motion'
 import { ProjectCard } from './ProjectCard'
 import { useTranslation } from 'react-i18next'
 
-
 const Projects = () => {
   const [active, setActive] = useState('project-1')
 
@@ -38,7 +37,7 @@ const Projects = () => {
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className='mt-[50px] flex lg:flex-wrap lg:flex-row flex-col lg:min-h-[100vh] min-h-[200vh] gap-5'>
+        <div className='mt-[50px] flex lg:flex-wrap lg:flex-row flex-col gap-5 lg:min-h-[100vh] min-h-[250vh]'>
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}

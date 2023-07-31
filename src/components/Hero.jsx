@@ -18,13 +18,13 @@ const Hero = () => {
           className='w-full h-full sm:block hidden object-cover'
         />
       </div>
-      <div className='absolute top-0 left-0 z-0 h-[100vh] w-screen'>
+      {/* <div className='absolute top-0 left-0 z-0 h-[100vh] w-screen'>
         <img
           src={bgHero}
           alt='Hero Background'
           className='w-full h-full sm:hidden block object-cover'
         />
-      </div>
+      </div> */}
       <section
         className='relative flex sm:flex-row flex-col w-full h-screen mx-auto overflow-hidden 
         sm:bg-hero bg-hero-mobile
