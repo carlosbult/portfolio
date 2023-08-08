@@ -16,7 +16,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.pageYOffset
-      const limit = 50 // You can adjust this value to your needs
+      const limit = 750 // You can adjust this value to your needs
       if (scrollPosition > limit) {
         setIsTop(false)
       } else {
