@@ -28,8 +28,6 @@ import linkedin from './icons/linkedn.png'
 import twitter from './icons/twitter.png'
 
 import css from './tech/css.png'
-import docker from './tech/docker.png'
-import figma from './tech/figma.png'
 import git from './tech/git.png'
 import html from './tech/html.png'
 import javascript from './tech/javascript.png'
@@ -38,9 +36,6 @@ import reactjs from './tech/reactjs.png'
 import redux from './tech/redux.png'
 import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
-import graphql from './tech/graphql.png'
-import postgresql from './tech/postgresql.png'
-import rubyrails from './tech/rubyrails.png'
 import linux from './tech/linux.png'
 import php from './tech/php.png'
 import mysql from './tech/mysql.png'
@@ -89,15 +84,10 @@ export {
   send,
   sendHover,
   css,
-  docker,
-  figma,
   git,
-  graphql,
   html,
   javascript,
   nodejs,
-  postgresql,
-  rubyrails,
   reactjs,
   redux,
   tailwind,
