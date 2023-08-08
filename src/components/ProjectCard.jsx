@@ -25,11 +25,10 @@ export const ProjectCard = ({
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className={`relative ${
         active === id
-          ? 'lg:flex-[3.5] flex-[10] lg:min-w-[50vw] min-h-[130vh]'
+          ? 'lg:flex-[3.5] flex-[10] lg:min-w-[50vw]'
           : 'lg:flex-[0.5] flex-[2]'
-      } flex items-center justify-center min-w-[170px] min-h-[100px] lg:min-h-[75vh] cursor-pointer card-shadow overflow-auto`}
-      onClick={() => handleClick(id)}
-      style={{ minHeight: '100px', height: 'auto' }}>
+      } flex items-center justify-center min-w-[170px] min-h-[100px] lg:min-h-[75vh] cursor-pointer card-shadow`}
+      onClick={() => handleClick(id)}>
       <div
         className='absolute top-0 left-0 z-10 bg-primary
         h-full w-full opacity-[0.5] rounded-[24px]'></div>
@@ -53,8 +52,8 @@ export const ProjectCard = ({
       ) : (
         <>
           <div
-            className='absolute bottom-0 p-8 justify-start w-full
-              flex-col rounded-b-[24px] z-20 bg-[rgba(255,99,71,0.85)]'>
+            className='flex bottom-0 p-8 justify-end w-full
+              flex-col rounded-[24px] z-20 bg-[rgba(255,99,71,0.85)] lg:overflow-y-auto h-full '>
             {repo && (
               <div className='absolute inset-0 flex justify-end m-3'>
                 <div
