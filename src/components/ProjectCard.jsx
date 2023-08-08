@@ -39,7 +39,7 @@ export const ProjectCard = ({
       /> */}
 
       {active !== id ? (
-        <div className='flex items-center justify-start pr-[16.5rem]'>
+        <div className='flex items-center justify-start pr-[18.5rem]'>
           <h3
             className='font-extrabold font-beckman uppercase w-[200px] h-[30px]
           whitespace-nowrap sm:text-[27px] text-[18px] text-tertiary tracking-[1px]
@@ -57,7 +57,7 @@ export const ProjectCard = ({
               <div className='absolute inset-0 flex justify-end m-3'>
                 <div
                   onClick={() => window.open(repo, '_blank')}
-                  className='bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
+                  className='bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full
                     flex justify-center items-center cursor-pointer
                     sm:opacity-[0.9] opacity-[0.8]'>
                   <img
@@ -99,11 +99,11 @@ export const ProjectCard = ({
             </div>
 
             <button
-              className='live-demo flex justify-between
+              className='live-demo flex justify-center items-center
                 sm:text-[16px] text-[14px] text-timberWolf
                 font-bold font-beckman items-center py-5 pl-2 pr-3
-                whitespace-nowrap gap-1 sm:w-[180px] sm:h-[50px]
-                w-[160px] h-[46px] rounded-[10px] glassmorphism
+                whitespace-nowrap gap-1 sm:w-[150px] sm:h-[50px]
+                w-[150px] h-[46px] rounded-[10px] glassmorphism
                 sm:mt-[22px] mt-[16px] hover:bg-battleGray
                 hover:text-eerieBlack transition duration-[0.2s]
                 ease-in-out'
@@ -118,12 +118,6 @@ export const ProjectCard = ({
                   .querySelector('.btn-icon')
                   .setAttribute('src', pineapple)
               }}>
-              <img
-                src={pineapple}
-                alt='pineapple'
-                className='btn-icon sm:w-[40px] sm:h-[34px] 
-                    w-[30px] h-[30px] object-contain'
-              />
               {t('projects:goProject')}
             </button>
           </div>
