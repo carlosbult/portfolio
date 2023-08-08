@@ -25,7 +25,7 @@ export const ProjectCard = ({
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className={`relative ${
         active === id
-          ? 'lg:flex-[3.5] flex-[10] lg:min-w-[50vw] min-h-[100vh]'
+          ? 'lg:flex-[3.5] flex-[10] lg:min-w-[50vw] min-h-[130vh]'
           : 'lg:flex-[0.5] flex-[2]'
       } flex items-center justify-center min-w-[170px] min-h-[100px] lg:min-h-[75vh] cursor-pointer card-shadow overflow-auto`}
       onClick={() => handleClick(id)}
