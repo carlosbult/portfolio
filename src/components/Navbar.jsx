@@ -9,13 +9,31 @@ import { useTranslation } from 'react-i18next'
 const Navbar = () => {
   const [active, setActive] = useState('')
   const [toggle, setToggle] = useState(false)
+  const [isTop, setIsTop] = useState(true)
 
   const { t } = useTranslation()
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.pageYOffset
+      const limit = 50 // You can adjust this value to your needs
+      if (scrollPosition > limit) {
+        setIsTop(false)
+      } else {
+        setIsTop(true)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-2 fixed
-      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
+      className={`${styles.paddingX} w-full flex items-center py-2 ${isTop ? 'fixed' : ''} top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
