@@ -36,7 +36,7 @@ const Projects = () => {
         initial='hidden'
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}>
+        className={`${styles.innerWidth} mx-auto flex flex-col min-h-[250vh] lg:min-h-[100vh]`}>
         <div className='mt-[50px] flex lg:flex-wrap lg:flex-row flex-col gap-5 lg:min-h-[100vh] min-h-[250vh]'>
           {projects.map((project, index) => (
             <ProjectCard
