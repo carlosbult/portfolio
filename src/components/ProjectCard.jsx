@@ -23,11 +23,13 @@ export const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-      className={`relative ${active === id
+      className={`relative ${
+        active === id
           ? 'lg:flex-[3.5] flex-[10] lg:min-w-[50vw] min-h-[100vh]'
           : 'lg:flex-[0.5] flex-[2]'
-        } flex items-center justify-center min-w-[170px] min-h-[100px] lg:min-h-[75vh] cursor-pointer card-shadow`}
-      onClick={() => handleClick(id)}>
+      } flex items-center justify-center min-w-[170px] min-h-[100px] lg:min-h-[75vh] cursor-pointer card-shadow overflow-auto`}
+      onClick={() => handleClick(id)}
+      style={{ minHeight: '100px', height: 'auto' }}>
       <div
         className='absolute top-0 left-0 z-10 bg-primary
         h-full w-full opacity-[0.5] rounded-[24px]'></div>
