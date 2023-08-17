@@ -121,41 +121,41 @@ export const projects = [
     image: space,
     demo: 'https://kpi.isuzusystem.info'
   },
-  {
-    id: 'project-7',
-    name: 'projects:noticieroamerica.name',
-    description: 'projects:noticieroamerica.description',
-    tags: [
-      {
-        name: 'WordPress'
-      },
-      {
-        name: 'PHP'
-      },
-      {
-        name: 'Mysql'
-      }
-    ],
-    image: leaderboard,
-    // repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://noticieroamerica.com'
-  },
-  {
-    id: 'project-8',
-    name: 'projects:diversogroup.name',
-    description: 'projects:diversogroup.description',
-    tags: [
-      {
-        name: 'Wordpress'
-      },
-      {
-        name: 'PHP'
-      },
-      {
-        name: 'Mysql'
-      }
-    ],
-    image: space,
-    demo: 'https://diversocreativeagency.com'
-  }
+  // {
+  //   id: 'project-7',
+  //   name: 'projects:noticieroamerica.name',
+  //   description: 'projects:noticieroamerica.description',
+  //   tags: [
+  //     {
+  //       name: 'WordPress'
+  //     },
+  //     {
+  //       name: 'PHP'
+  //     },
+  //     {
+  //       name: 'Mysql'
+  //     }
+  //   ],
+  //   image: leaderboard,
+  //   // repo: 'https://github.com/shaqdeff/Leaderboard',
+  //   demo: 'https://noticieroamerica.com'
+  // },
+  // {
+  //   id: 'project-8',
+  //   name: 'projects:diversogroup.name',
+  //   description: 'projects:diversogroup.description',
+  //   tags: [
+  //     {
+  //       name: 'Wordpress'
+  //     },
+  //     {
+  //       name: 'PHP'
+  //     },
+  //     {
+  //       name: 'Mysql'
+  //     }
+  //   ],
+  //   image: space,
+  //   demo: 'https://diversocreativeagency.com'
+  // }
 ]
