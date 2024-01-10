@@ -76,14 +76,14 @@ export const technologies = [
     name: 'Mysql',
     icon: mysql
   },
-  {
-    name: 'Wordpress',
-    icon: wordpress
-  },
-  {
-    name: 'php',
-    icon: php
-  },
+  // {
+  //   name: 'Wordpress',
+  //   icon: wordpress
+  // },
+  // {
+  //   name: 'php',
+  //   icon: php
+  // },
   {
     name: 'git',
     icon: git
