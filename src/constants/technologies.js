@@ -16,7 +16,8 @@ import {
   nestjs,
   express,
   prisma,
-  nextjs
+  nextjs,
+  net
 } from '../assets'
 
 export const technologies = [
@@ -49,8 +50,8 @@ export const technologies = [
     icon: nextjs
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux
+    name: '.NET',
+    icon: net
   },
   {
     name: 'Node JS',
@@ -76,7 +77,7 @@ export const technologies = [
     name: 'Mysql',
     icon: mysql
   },
-  // {
+  // 
   //   name: 'Wordpress',
   //   icon: wordpress
   // },
