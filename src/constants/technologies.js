@@ -49,10 +49,10 @@ export const technologies = [
     name: 'Next JS',
     icon: nextjs
   },
-  {
-    name: '.NET',
-    icon: net
-  },
+  // {
+  //   name: '.NET',
+  //   icon: net
+  // },
   {
     name: 'Node JS',
     icon: nodejs
