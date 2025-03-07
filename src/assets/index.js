@@ -50,12 +50,8 @@ import net from './tech/NET.png';
 import docker from './tech/docker.png';
 import postgres from './tech/postgresql.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
 import sitioUno from './company/sitioUnoLogo.png';
-import softop from './company/softop.jpg';
+import fonet from './company/fonet.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -102,10 +98,6 @@ export {
 	movie,
 	nyeusi,
 	space,
-	coverhunt,
-	dcc,
-	kelhel,
-	microverse,
 	instagram,
 	linkedin,
 	twitter,
@@ -119,9 +111,9 @@ export {
 	prisma,
 	nextjs,
 	sitioUno,
-	softop,
 	net,
 	docker,
 	aws,
 	postgres,
+	fonet,
 };
