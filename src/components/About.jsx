@@ -29,11 +29,11 @@ const About = () => {
         {t('about:paragraph-2')}
       </motion.p>
 
-      <motion.p
+      {/* <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-tertiary text-[18px] max-w-3xl leading-[30px]'>
         {t('about:paragraph-3')}
-      </motion.p>
+      </motion.p> */}
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

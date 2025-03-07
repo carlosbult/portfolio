@@ -27,6 +27,7 @@ import instagram from './icons/instagram.png';
 import linkedin from './icons/linkedn.png';
 import twitter from './icons/twitter.png';
 
+import aws from './tech/aws.png';
 import css from './tech/css.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
@@ -46,6 +47,8 @@ import express from './tech/express.png';
 import prisma from './tech/prisma.png';
 import nextjs from './tech/nextjs.png';
 import net from './tech/NET.png';
+import docker from './tech/docker.png';
+import postgres from './tech/postgresql.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -118,4 +121,7 @@ export {
 	sitioUno,
 	softop,
 	net,
+	docker,
+	aws,
+	postgres,
 };
